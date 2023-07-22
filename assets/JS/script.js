@@ -1,4 +1,4 @@
-import { Fancybox } from './../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.esm.js';
+import { Fancybox } from '../node_modules/@fancyapps/ui/dist/fancybox/fancybox.esm.js';
 import { mouseEmCima } from "./MouseEmCima.js";
 import { mouselivre } from './MouseLivre.js';
 import { selecionarItem } from './carrousel.js';
