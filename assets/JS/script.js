@@ -1,4 +1,4 @@
-import { Fancybox } from 'https://github.com/gogadgs/carrousel/blob/main/node_modules/%40fancyapps/ui/dist/fancybox/fancybox.esm.js';
+import { Fancybox } from "../node_modules/%40fancyapps/ui/dist/fancybox/fancybox.esm.js";
 import { mouseEmCima } from "./MouseEmCima.js";
 import { mouselivre } from './MouseLivre.js';
 import { selecionarItem } from './carrousel.js';
