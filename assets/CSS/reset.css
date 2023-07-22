@@ -1,0 +1,41 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    vertical-align: baseline;    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    border:0;
+    color:#fff;
+
+    font-size:16px;
+    text-decoration: none;
+}
+
+:root{
+    --cor-primária:background-color:#d699ff;
+    background-image:
+    radial-gradient(at 76% 50%, hsla(281,94%,72%,1) 0px, transparent 50%),
+    radial-gradient(at 82% 50%, hsla(192,96%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 73% 50%, hsla(148,88%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 1% 50%, hsla(255,70%,76%,1) 0px, transparent 50%);
+    --cor-fonte:#091981;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--cor-fonte);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:var(--cor-fonte);
+}
+::-webkit-scrollbar{
+    background-color:#fff;
+}

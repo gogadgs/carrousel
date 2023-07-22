@@ -1,0 +1,32 @@
+@media screen and (min-width:310px) and (max-width:600px){
+    body{
+        min-width: 100vw;
+        max-height: 60vh;
+    }
+    .conteudo-principal .cartao img:nth-child(1) {
+    width: 100%;
+    min-height: 25%;
+    max-height:25%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+
+
+.conteudo-principal .cartao h2{
+    font-size: 1rem !important;
+    min-width: 10px;
+    min-height: 30%;
+}
+.carroussel{
+    margin-left: 2.2rem;
+}
+footer .controlador{
+    margin-left: 1rem;
+}
+}

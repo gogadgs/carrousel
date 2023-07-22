@@ -1,0 +1,64 @@
+nav{
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    position:relative;
+}
+
+nav ul li{
+    margin:60px 0;
+}
+nav ul li a{
+    color:white;
+    border:1px solid var(--cor-fonte);
+    width: 45px;
+    height:45px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    background-color:var(--cor-fonte);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+nav ul li a:not(:has(svg)):hover,nav ul li a:not(:has(svg)).ativado{
+    background-color:#f10396;
+    opacity:0.5;
+    transition:background 0.5s ease-in-out;
+    -webkit-transition:background 0.5s ease-in-out;
+    -moz-transition:background 0.5s ease-in-out;
+    -ms-transition:background 0.5s ease-in-out;
+    -o-transition:background 0.5s ease-in-out;
+}
+nav ul li a svg {
+    position: absolute;
+    top:0;
+    width: 45px;
+    height:45px;
+}
+
+nav ul {
+    z-index: 1;
+}
+
+nav::before{
+    content:"";
+    position:absolute;
+    top:0;
+    width:2px;
+    height:100%;
+    background-color:var(--cor-fonte);
+    z-index:0;
+}
+
+nav ul li:first-child{
+   margin-top:-250px;
+}
+nav ul li:last-child{
+    margin-bottom:0;
+}

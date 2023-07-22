@@ -1,0 +1,52 @@
+@import url('../reset.css');
+
+
+.links{
+    display: flex;
+    z-index: 2;
+    position: relative;
+    left: 4rem;
+    bottom: 26rem;
+}
+
+ .botao-link{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position:relative;
+
+}
+
+  .icone{
+    width:32px;
+    height:32px;
+    background-color:var(--cor-fonte);
+    border:1px solid white;
+    background-clip:content-box;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone .acessar-icone{
+    border:7px solid white;
+    width:0;
+    height:0;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    margin-right: -0.5rem;
+}
+
+.links ul li{
+    margin:0 2rem;
+}

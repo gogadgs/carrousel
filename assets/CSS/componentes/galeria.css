@@ -1,0 +1,27 @@
+@import url('../reset.css');
+.galeria{
+    padding:20px;
+    padding-left:0;
+}
+.galeria ul{
+    display:flex;
+    flex-direction: row;
+    margin:20rem 1rem;
+}
+.galeria ul li{
+    margin-left:1rem;
+}
+.galeria ul li:first-child{
+    margin-left:0px;
+}
+
+.galeria ul li a img{
+    border:1px transparent white;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    max-width: 500px;
+    max-height: 200px;
+}
