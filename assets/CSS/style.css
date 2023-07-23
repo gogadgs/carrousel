@@ -8,7 +8,7 @@
 /*  estilização generalista da pagina */
 
 body{
-    overflow-x: hidden;
+   
     font-family:'Poppins',sans-serif;
     background-color: var(--cor-primária);
     background-size:cover;

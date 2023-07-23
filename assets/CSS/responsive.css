@@ -1,8 +1,5 @@
 @media screen and (min-width:310px) and (max-width:600px){
-    body{
-        min-width: 100vw;
-        max-height: 60vh;
-    }
+ 
     .conteudo-principal .cartao img:nth-child(1) {
     width: 100%;
     min-height: 25%;

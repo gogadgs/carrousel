@@ -3,10 +3,9 @@
 @import url('../../../CSS/componentes/pilula.css');
 @import url('../../../CSS/componentes/botao-link.css');
 @import url('../../../CSS/componentes/galeria.css');
+@import url('../../../CSS/componentes/responsivepage.css');
 @import url('../../../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.css');
-body{
-    overflow:hidden;
-}
+
 
 main{
     display:flex;

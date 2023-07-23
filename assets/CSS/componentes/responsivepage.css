@@ -1,0 +1,63 @@
+@media screen and (min-width:310px) and (max-width:600px){
+  
+   
+
+    main aside {
+        margin: 5rem 0;
+        align-items: flex-start !important;
+        position:fixed !important;
+
+    }
+    main .conteudo-principal-top{
+        display:flex !important;
+        flex-direction:column !important;
+        min-height: 100vh;
+    }
+    main .conteudo-principal-top figure{
+        display:flex;
+        justify-content: center;
+    }
+    main .conteudo-principal-top figure img{
+        min-width:30px;
+        min-height:30px;
+        position:relative;
+        margin: 3rem 0;
+        left:0rem !important;
+    }
+    main .conteudo-principal .descrição{
+        margin: 0 2rem !important;
+
+    }
+    main .conteudo-principal .links{
+        left:0rem;
+    }
+    main .conteudo-principal-top h2{
+        font-size: 1rem !important;
+
+        bottom: 2rem !important;
+    }
+    .galeria ul{
+        display:flex !important;
+        flex-direction:column !important;
+        align-items: baseline;
+        margin:0;
+    }
+    .pilula ul li{
+        font-size: .6rem !important;]
+    }
+    .galeria ul li a img{
+        min-width:150px;
+        max-width: 150px;
+        min-height:150px;
+        max-height:150px;
+    }
+    footer{
+        position: relative !important;
+        bottom:0 !important;
+        margin-left: 1rem;
+    }
+
+footer .controlador{
+    margin-left: 1rem;
+}
+}
